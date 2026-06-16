@@ -10,6 +10,10 @@ namespace Question20
     {
         static void Main(string[] args)
         {
+            String s = "12345";
+            Console.WriteLine(s.Length*2);
         }
+        // Output 
+        // 10
     }
 }

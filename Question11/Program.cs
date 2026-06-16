@@ -10,6 +10,10 @@ namespace Question11
     {
         static void Main(string[] args)
         {
+            String s = "CSharp";
+            Console.WriteLine(s.IndexOf('a'));
         }
+        // Output 
+        // 3
     }
 }

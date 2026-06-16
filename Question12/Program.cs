@@ -10,6 +10,11 @@ namespace Question12
     {
         static void Main(string[] args)
         {
+            int x = 5;
+            Console.WriteLine(x>2 && x<5);
         }
+
+        // Output 
+        // False
     }
 }

@@ -10,6 +10,11 @@ namespace Question26
     {
         static void Main(string[] args)
         {
+            int x = 1;
+            for (int i = 0; i < 4; i++) x *= 2;
+            Console.WriteLine(x);
         }
+        // Output 
+        // 16
     }
 }

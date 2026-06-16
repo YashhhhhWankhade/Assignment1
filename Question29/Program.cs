@@ -10,6 +10,10 @@ namespace Question29
     {
         static void Main(string[] args)
         {
+            int x = 3;
+            Console.WriteLine(x*x*x);
         }
+        // Output 
+        // 27
     }
 }

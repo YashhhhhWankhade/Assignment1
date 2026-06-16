@@ -10,6 +10,16 @@ namespace Question10
     {
         static void Main(string[] args)
         {
+            int x = 3;
+            switch(x)
+            {
+                case 1:
+                case 2: Console.WriteLine("A"); break; 
+                case 3: Console.WriteLine("B"); break;
+            }
+
+            // Output 
+            // B
         }
     }
 }

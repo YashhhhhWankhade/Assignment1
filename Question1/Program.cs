@@ -14,6 +14,8 @@ namespace Question1
             Console.WriteLine(x++ + ++x + x--);
 
             // OutPut
+            // 19
+
         }
     }
 }

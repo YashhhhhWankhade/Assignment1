@@ -10,6 +10,11 @@ namespace Question13
     {
         static void Main(string[] args)
         {
+            int x = 10;
+            Console.WriteLine(x==10 ? x+5 : x-5);
         }
+
+        // Output 
+        // 15
     }
 }

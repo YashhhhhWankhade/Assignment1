@@ -10,6 +10,11 @@ namespace Question22
     {
         static void Main(string[] args)
         {
+            int x = 0;
+            for (int i = 0; i < 5; i++) x += i;
+            Console.WriteLine(x);
         }
+        // Output 
+        // 10
     }
 }

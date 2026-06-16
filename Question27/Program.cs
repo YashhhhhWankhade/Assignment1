@@ -10,6 +10,10 @@ namespace Question27
     {
         static void Main(string[] args)
         {
+            int x = 25;
+            Console.WriteLine(Math.Sqrt(x));
         }
+        // Output 
+        // 5
     }
 }

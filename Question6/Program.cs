@@ -10,6 +10,10 @@ namespace Question6
     {
         static void Main(string[] args)
         {
+            String s = "ABCDE";
+            Console.WriteLine(s.Substring(1,3));
         }
+        // Output 
+        // BCD
     }
 }

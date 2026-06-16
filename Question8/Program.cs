@@ -10,6 +10,11 @@ namespace Question8
     {
         static void Main(string[] args)
         {
+            int x = 1;
+            while (x < 20) x *= 2;
+            Console.WriteLine(x);
         }
+        // Output 
+        // 32
     }
 }

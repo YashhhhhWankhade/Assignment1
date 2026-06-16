@@ -10,6 +10,10 @@ namespace Question23
     {
         static void Main(string[] args)
         {
+            int[] arr = { 1, 2, 3 };
+            Console.WriteLine(arr.Max());
         }
+        // Output 
+        // 3
     }
 }

@@ -10,6 +10,12 @@ namespace Question15
     {
         static void Main(string[] args)
         {
+            int[] a = { 2, 4, 6 };
+            int sum = 0;
+            foreach (int i in a) sum += i;
+            Console.WriteLine(sum/3);
         }
+        // Output 
+        // 4
     }
 }

@@ -10,6 +10,10 @@ namespace Question18
     {
         static void Main(string[] args)
         {
+            int x = 7;
+            Console.WriteLine(x%4);
         }
+        // Output 
+        // 3
     }
 }

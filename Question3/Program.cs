@@ -10,6 +10,13 @@ namespace Question3
     {
         static void Main(string[] args)
         {
+            int x = 1;
+            for (int i = 0; i < 3; i++) x += x;
+            {
+                Console.WriteLine(x);
+                // Output 
+                // 8
+            }
         }
     }
 }

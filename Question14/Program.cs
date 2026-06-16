@@ -10,6 +10,11 @@ namespace Question14
     {
         static void Main(string[] args)
         {
+            char c = 'Z';
+            Console.WriteLine((int)c);
         }
+
+        // Output 
+        // 90
     }
 }

@@ -10,6 +10,10 @@ namespace Question24
     {
         static void Main(string[] args)
         {
+            int x = 2;
+            Console.WriteLine(Math.Pow(x,3));
         }
+        // Output 
+        // 8
     }
 }

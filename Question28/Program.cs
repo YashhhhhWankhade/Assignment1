@@ -10,6 +10,10 @@ namespace Question28
     {
         static void Main(string[] args)
         {
+            String s = "program";
+            Console.WriteLine(s.Contains("gram"));
         }
+        // Output 
+        // True
     }
 }
