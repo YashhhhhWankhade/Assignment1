@@ -10,7 +10,8 @@ namespace Question1
     {
         static void Main(string[] args)
         {
-
+            int x = 5;
+            Console.WriteLine(x++ + ++x + x--);
 
             // OutPut
         }
